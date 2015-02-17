@@ -64,7 +64,6 @@
                 self.makeSelectors();
                 self.generate();
                 self.subject.val(self.subject_generator.getSubject());
-                return false;
             });
         },
 
