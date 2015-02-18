@@ -57,7 +57,7 @@
         
         initialize: function() {
             this.subject = $('#issue_subject');
-            this.subject_generator = SubjectGenerator.initialize(self.subject.val());
+            this.subject_generator = SubjectGenerator.initialize();
             return this;
         },
         
